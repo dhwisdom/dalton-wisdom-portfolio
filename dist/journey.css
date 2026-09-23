@@ -1,0 +1,249 @@
+/* Science to systems: compact surfaces and progressive motion. */
+.journey-page .nav{font-size:14px}
+.journey-page .hero{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(245px,.8fr);gap:30px 48px;align-items:center;text-align:left;padding:58px 0 34px}
+.journey-page .hero-content{margin:0;min-width:0}
+.journey-page .hero h1{font-size:clamp(42px,5.5vw,69px);line-height:1.07;letter-spacing:-.052em;margin-bottom:24px}
+.journey-page .hero .eyebrow{font-size:14px;margin-bottom:18px}
+.journey-page .hero .intro{font-size:19px;max-width:640px;margin:0 0 24px}
+.journey-page .hero .actions{justify-content:flex-start}
+.journey-page .hero-caption{font-size:14px;margin:22px 0 0;max-width:none}
+.intro-card{position:relative;text-align:center;padding:26px 24px 20px;border:1px solid #ffffffbb;border-radius:30px;background:linear-gradient(145deg,#ffffffe8,#eef5e4db 60%,#f4e8bfdb);box-shadow:0 16px 44px #24432c12;overflow:hidden}
+.hero-portrait{width:clamp(138px,14vw,184px);height:auto;aspect-ratio:1;border-radius:50%;object-fit:cover;border:6px solid #fff;box-shadow:0 8px 26px #214b3522}
+.intro-name{font-size:22px;font-weight:650;margin:12px 0 6px;letter-spacing:-.6px;color:#193d2c}
+.intro-direction{font-size:16px;line-height:1.45;color:#4d574a;margin:0 0 18px}
+.focus-tags{display:flex;justify-content:center;flex-wrap:wrap;gap:7px}
+.focus-tags span{font-size:13px;line-height:1.4;background:#fff9;border:1px solid #2d573025;color:#29462e;border-radius:9px;padding:6px 9px}
+.profile-link{font-size:14px;display:inline-flex;align-items:center;min-height:44px;margin-top:9px}
+.journey-route{grid-column:1/-1;display:flex;align-items:center;gap:20px;padding:17px 0;border-top:1px solid #294b302a;border-bottom:1px solid #294b302a;font-size:14px}
+.journey-route a{display:flex;gap:10px;align-items:center;text-decoration:none;min-height:44px;font-weight:550}
+.journey-route a span{font-size:12px;font-weight:700;color:#556044}
+.route-line{flex:1;max-width:130px;height:2px;background:linear-gradient(90deg,#2b6344,#b59a40,#a42136);transform-origin:left;animation:route-draw 1.2s ease-out both}
+.replay-welcome{border:0;background:transparent;color:#4c5748;text-decoration:underline;text-underline-offset:4px;font-size:14px;min-height:44px;margin-left:auto;padding:6px}
+.journey-page .chapter{padding:40px 0}
+.journey-page .section-head{margin-bottom:24px;gap:24px}
+.journey-page .section-head h2{font-size:clamp(30px,3.6vw,43px)}
+.journey-page .section-head p{font-size:16px}
+.journey-page .chapter-label{font-size:13px;margin-bottom:16px}
+.journey-page .chapter-intro{gap:28px;margin-bottom:24px;align-items:stretch}
+.journey-page .chapter-intro>p{font-size:17px;line-height:1.65;align-self:center}
+.journey-page .education-item{padding:23px 26px;box-shadow:0 10px 30px #43391e08}
+.journey-page .education-item .eyebrow{font-size:12px}
+.journey-page .education-item p{font-size:16px}
+.journey-page .chapter-roles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.journey-page .job{display:flex;flex-direction:column;gap:14px;padding:26px;border:1px solid #31503b2b;border-radius:24px;background:#f6faf0;box-shadow:0 8px 26px #24412b08;position:relative;overflow:hidden;transition:box-shadow .25s,border-color .25s}
+.journey-page .job::before{content:"";position:absolute;inset:0 auto 0 0;width:5px;background:#2a5c3d}
+.journey-page .chapter-roles .job:last-child{background:#fff9e9;border-color:#8e711d35}
+.journey-page .chapter-roles .job:last-child::before{background:#a18225}
+.journey-page .job:hover,.journey-page .job:focus-within{border-color:#315b4266;box-shadow:0 14px 35px #23453112}
+.journey-page .job>.date{font-size:12px;font-weight:650;letter-spacing:.06em;padding:0}
+.journey-page .job>div:last-child{display:flex;flex:1;flex-direction:column;align-items:flex-start}
+.journey-page .job h3{font-size:24px}
+.journey-page .job .org{color:#171a18;font-size:15px;margin-bottom:13px}
+.journey-page .job p{font-size:16px;line-height:1.65}
+.journey-page .job .expand-trigger{margin-top:auto;padding-top:18px;min-height:62px;color:#17271c;font-size:14px;width:100%}
+.role-skills{display:flex;flex-wrap:wrap;gap:7px;margin:18px 0 4px}
+.role-skills span{font-size:12px;font-weight:550;line-height:1.5;padding:5px 9px;border-radius:7px;background:#fff9;border:1px solid #364c3426;color:#374739}
+.journey-page .systems-chapter>.job{display:grid;grid-template-columns:160px minmax(0,1fr);gap:26px;background:#fff6f5;border-color:#a421362b}
+.journey-page .systems-chapter>.job::before{background:#a42136}
+.journey-page .systems-chapter>.job .role-skills span{color:#652b35;border-color:#a4213625}
+.journey-page .project-section{padding-top:40px}
+.journey-page .project-body{padding:28px}
+.journey-page .project-subtitle{min-height:0;margin-bottom:24px}
+.journey-page .project-description{font-size:16px;margin:22px 0 18px}
+.journey-page .project-kicker{font-size:12px}
+.journey-page .chips span{font-size:12px}
+.journey-page .other-projects{gap:16px;margin-top:18px}
+.journey-page .other-projects article{padding:24px;border:1px solid #a4213620;background:#fffaf9}
+.journey-page .other-projects p{font-size:16px}
+.journey-page .other-projects .eyebrow{font-size:12px}
+.journey-page .strengths{padding:26px;border:1px solid #ffffffaa;border-radius:24px;background:#ffffff8c;margin-top:24px}
+.journey-page .contact{margin:22px 0 32px;padding:32px}
+.journey-page .footer{font-size:13px}
+.welcome-dialog{border:0;width:100%;max-width:none;height:100dvh;max-height:none;padding:32px;margin:0;color:#fff;background:linear-gradient(115deg,#153d2f 0%,#223c2c 37%,#4c3926 65%,#752338 100%);overflow:auto}
+.welcome-dialog[open]{display:grid;place-items:center;animation:welcome-enter .28s ease-out}
+.welcome-dialog::backdrop{background:#19392d}
+.welcome-content{width:min(700px,100%);text-align:center;margin:auto}
+.welcome-content .eyebrow{color:#e8e4c9;font-size:14px}
+.welcome-content h2{font-size:clamp(42px,7vw,86px);line-height:1.08;letter-spacing:-.055em;margin:20px 0}
+.welcome-content h2 span{color:#f3dfa6}
+.welcome-content>p:not(.eyebrow){color:#f4eee3;font-size:18px}
+.welcome-path{display:flex;align-items:center;justify-content:center;gap:18px;font-size:13px;color:#f3e9d5;margin:30px 0}
+.welcome-path i{width:100px;height:2px;background:linear-gradient(90deg,#c0ddb5,#e6c55e,#eca3b1);transform-origin:left;animation:route-draw 1.5s ease both}
+.welcome-skip{color:#fff;background:#ffffff14;border-color:#ffffff80;min-width:165px;font-size:15px}
+.welcome-skip:hover{background:#fff;color:#153d2f}
+.welcome-dialog :focus-visible{outline:3px solid #f3dfa6!important;outline-offset:6px}
+.welcome-dialog.is-leaving{animation:welcome-exit .32s ease-in forwards}
+.hero-content{animation:soft-enter .65s ease both}
+.intro-card{animation:soft-enter .75s .08s ease both}
+@keyframes route-draw{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes soft-enter{from{opacity:.4;transform:translateY(12px)}to{opacity:1;transform:none}}
+@keyframes welcome-enter{from{opacity:0}to{opacity:1}}
+@keyframes welcome-exit{from{opacity:1;transform:none}to{opacity:0;transform:translateY(-18px)}}
+@media(max-width:850px){
+ .journey-page .hero{grid-template-columns:minmax(0,1fr) 245px;gap:26px;padding-top:40px}
+ .journey-page .hero h1{font-size:45px}
+ .journey-page .hero .intro{font-size:17px}
+ .journey-page .chapter-intro{grid-template-columns:1fr 1fr}
+ .journey-page .job{padding:23px}
+ .journey-page .job h3{font-size:22px}
+ .journey-page .systems-chapter>.job{grid-template-columns:1fr;gap:14px}
+ .journey-route{gap:12px}.route-line{max-width:60px}
+}
+@media(max-width:650px){
+ .journey-page .hero{grid-template-columns:1fr;gap:24px;padding:34px 0 20px}
+ .journey-page .hero h1{font-size:clamp(38px,8.5vw,54px);margin-bottom:18px}
+ .journey-page .hero .intro{font-size:18px}
+ .journey-page .hero .eyebrow{font-size:13px;margin-bottom:14px}
+ .intro-card{display:grid;grid-template-columns:90px 1fr;gap:0 18px;text-align:left;padding:22px;border-radius:24px}
+ .hero-portrait{width:90px;grid-row:1/3;align-self:center;border-width:4px}
+ .intro-name{font-size:21px;margin:0 0 5px}.intro-direction{font-size:15px;margin:0}
+ .focus-tags{grid-column:1/-1;justify-content:flex-start;margin-top:18px}
+ .profile-link{grid-column:1/-1;justify-self:start;margin-top:8px}
+ .journey-route{flex-wrap:wrap;gap:2px 12px;padding:10px 0;font-size:13px}
+ .route-line{max-width:none;min-width:12px}.replay-welcome{width:100%;margin:0;text-align:left}
+ .journey-page .chapter{padding:30px 0}
+ .journey-page .chapter-intro,.journey-page .chapter-roles{grid-template-columns:1fr;gap:16px}
+ .journey-page .section-head h2{font-size:34px;margin-bottom:14px}
+ .journey-page .chapter-intro>p{font-size:16px}
+ .journey-page .education-item{padding:22px}
+ .journey-page .job{padding:24px}
+ .journey-page .project-body{padding:24px}
+ .journey-page .project-subtitle{font-size:32px}
+ .journey-page .contact,.journey-page .strengths{padding:24px}
+ .journey-page .nav{font-size:14px;gap:18px}
+}
+@media(prefers-reduced-motion:reduce){.welcome-dialog[open],.welcome-dialog.is-leaving,.welcome-path i{animation:none}.welcome-dialog.is-leaving{opacity:0}}
+@media print{.welcome-dialog,.journey-route,.intro-card{display:none!important}.journey-page .hero{display:block}.journey-page .job{break-inside:avoid;background:white;box-shadow:none}}
+
+/* Profile details stay compact until expanded. */
+.journey-page .research-role{grid-column:1/-1;display:grid;grid-template-columns:160px minmax(0,1fr);gap:26px}
+.journey-page .job .related-role{font-size:14px;margin:12px 0 0;color:#334435}
+.journey-page .education-item .education-honors{font-size:14px;line-height:1.6;color:#43503b;margin-top:12px}
+.journey-page .other-projects article{display:flex;flex-direction:column;min-width:0}
+.journey-page .other-projects .project-date{font-size:13px;margin:10px 0;color:#5f5358}
+.journey-page .academic-project .chips{margin:0 0 24px}
+.journey-page .academic-project .expand-trigger{margin-top:auto;padding-top:18px;min-height:62px;font-size:14px;color:#1d1d1f}
+.journey-page .skill-groups{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.journey-page .skill-groups section{border-top:2px solid #79885e;padding-top:16px}
+.journey-page .skill-groups section:nth-child(2){border-color:#ab872a}
+.journey-page .skill-groups section:nth-child(3){border-color:#a42136}
+.journey-page .skill-groups h4{font-size:16px;margin:0 0 10px}
+.journey-page .skill-groups p{font-size:15px;line-height:1.8;margin:0}
+@media(max-width:850px){.journey-page .research-role{display:flex;gap:14px}}
+@media(max-width:650px){.journey-page .skill-groups{grid-template-columns:1fr;gap:20px}}
+
+/* Individual identities on a shared white surface. */
+.journey-page .chem-card{background:#fff}
+.journey-page .job{--role-accent:#245b3d;--role-tint:#eaf3e8;border-color:color-mix(in srgb,var(--role-accent) 32%,white);box-shadow:0 10px 28px #2023220c}
+.journey-page .laboratory-role{--role-accent:#21656b;--role-tint:#e2f1f2;background:#f5fbfc}
+.journey-page .food-role{--role-accent:#886512;--role-tint:#f8edcb}
+.journey-page .workflow-role{--role-accent:#a42136;--role-tint:#fae8ec}
+.journey-page .job::before,.journey-page .chapter-roles .job:last-child::before{background:var(--role-accent);width:6px}
+.journey-page .job>.date{align-self:start;justify-self:start;background:var(--role-tint);color:var(--role-accent);border-radius:9px;padding:9px 11px;font-size:12px;line-height:1.5}
+.journey-page .job .role-category{font-size:12px;font-weight:700;letter-spacing:.075em;text-transform:uppercase;color:var(--role-accent);margin:0 0 10px}
+.journey-page .job .role-skills span{background:var(--role-tint);border-color:transparent;color:var(--role-accent)}
+.journey-page .other-projects .academic-project{--project-accent:#245d91;--project-tint:#eaf2fc;overflow:hidden;border-top:5px solid var(--project-accent);background:#fff;box-shadow:0 10px 26px #3529360b}
+.journey-page .other-projects .marketing-project{--project-accent:#744b91;--project-tint:#f1eafa}
+.journey-page .other-projects .warehouse-project{--project-accent:#246a64;--project-tint:#e6f3ed}
+.project-category{display:flex;flex-direction:column;gap:8px;background:var(--project-tint);color:var(--project-accent);padding:19px 24px;margin:-24px -24px 22px}
+.project-category span{font-size:12px;font-weight:650;letter-spacing:.025em}
+.project-category strong{font-size:20px;line-height:1.25;letter-spacing:-.4px}
+.journey-page .academic-project .eyebrow{font-size:11px;letter-spacing:.055em;margin-bottom:12px}
+.journey-page .academic-project .plus{background:var(--project-accent);color:#fff}
+.journey-page .academic-project .expand-trigger{border-color:var(--project-tint)}
+
+/* Opacity tracks scroll position, including repeat visits to a section. */
+.journey-page .scroll-reveal{opacity:var(--scroll-opacity,1)}
+.journey-page .scroll-reveal:focus-within{opacity:1}
+@media print{.journey-page .scroll-reveal{opacity:1!important}}
+
+/* Evidence and a clearer route through the career story. */
+.resume-link{display:inline-flex;align-items:center;flex-wrap:wrap;gap:10px;min-height:44px;margin-top:12px;font-size:15px;font-weight:600;text-underline-offset:4px}
+.resume-link span{font-weight:400;font-size:13px;color:#596356}
+.journey-milestones{padding:8px 0 24px}
+.journey-milestones ol{list-style:none;display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:0;margin:0;padding:0}
+.journey-milestones li{--milestone:#245b3d;position:relative;border-top:2px solid #88a583;padding:15px 12px 0 0}
+.journey-milestones li:nth-child(4){--milestone:#8d6a18;border-color:#b3943a}
+.journey-milestones li:nth-child(n+5){--milestone:#a42136;border-color:#c17481}
+.journey-milestones li::before{content:"";position:absolute;left:0;top:-6px;width:10px;height:10px;border-radius:50%;background:var(--milestone)}
+.journey-milestones a{display:flex;flex-direction:column;gap:5px;min-height:52px;text-decoration:none;font-size:13px;color:#576055}
+.journey-milestones a span{font-size:15px;font-weight:700;color:var(--milestone)}
+.journey-milestones a:hover span{text-decoration:underline;text-underline-offset:4px}
+.journey-milestones>p{font-size:12px;color:#68705e;margin:12px 0 0}
+.journey-page .job{scroll-margin-top:24px}
+.evidence-preview a{display:block}
+.evidence-preview img{aspect-ratio:auto;object-fit:contain;background:#fff}
+.journey-page .other-projects .evidence-preview{min-height:0;margin:8px 0 18px}
+.journey-page .other-projects .evidence-preview img{width:100%;height:160px;border-radius:10px;box-shadow:none;border:1px solid #dce1e8;object-fit:contain}
+.journey-page .evidence-preview figcaption,.dialog-inner .evidence-preview figcaption{font-size:12px;line-height:1.5;color:#62626a;margin:10px 0 0}
+.hub-screenshot img{width:100%;height:auto;aspect-ratio:2048/1116;object-fit:contain}
+.dialog-inner .evidence-preview{margin:20px 0 30px;min-height:0}
+.dialog-inner .evidence-preview img{width:100%;height:auto;max-height:none;object-fit:contain;border-radius:12px}
+.case .team-credit{font-size:14px;color:#62626a;margin-top:0}
+.evidence-table-wrap{overflow-x:auto;margin:20px 0}
+.model-results{width:100%;border-collapse:collapse;text-align:left;font-size:15px}
+.model-results caption{text-align:left;font-weight:600;margin-bottom:12px}
+.model-results th,.model-results td{padding:13px 14px;border-bottom:1px solid #dce1e8;vertical-align:top}
+.model-results th{background:#f3f4f7;font-weight:650}
+.model-results td:last-child{white-space:nowrap;font-variant-numeric:tabular-nums}
+.model-results .selected-model{background:#eaf3ec;font-weight:650}
+.case .evidence-source{font-size:14px;line-height:1.6;color:#62626a}
+@media(max-width:850px){.journey-milestones ol{grid-template-columns:repeat(3,minmax(0,1fr));row-gap:20px}.journey-milestones{padding-bottom:16px}}
+@media(max-width:650px){.journey-milestones a{font-size:12px}.journey-milestones a span{font-size:14px}.journey-milestones li{padding-right:8px}.model-results{font-size:14px}.model-results th,.model-results td{padding:10px 8px}}
+@media print{.journey-milestones,.resume-link{display:none}}
+
+/* Atlas: a white project card with an on-demand, inline walkthrough. */
+.journey-page .atlas-card { grid-column: 1 / -1; background: #fff; color: #1d1d1f; }
+.journey-page .atlas-card .project-body { display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.3fr); gap: 32px; align-items: center; }
+.atlas-intro { min-width: 0; }
+.atlas-card .project-kicker { color: #235e61; }
+.atlas-card .project-subtitle { font-size: clamp(30px, 3vw, 44px); }
+.atlas-card .expand-trigger { width: 100%; margin-top: 28px; }
+.atlas-demo { margin: 0; min-width: 0; }
+.atlas-demo video { display: block; width: 100%; height: auto; border: 1px solid #d4dfe0; border-radius: 18px; background: #f3f7f7; }
+.atlas-demo figcaption { color: #575760; font-size: 13px; line-height: 1.6; margin-top: 12px; }
+.atlas-video-link { display: inline-block; margin-top: 10px; color: #235e61; font-size: 14px; text-decoration: underline; text-underline-offset: 3px; }
+@media (max-width: 850px) { .journey-page .atlas-card .project-body { grid-template-columns: minmax(0, 1fr); gap: 24px; } }
+
+/* The welcome dialog returns screen-reader focus to this noninteractive heading.
+   Keep keyboard focus indicators on links, buttons and other controls. */
+.journey-page #intro-title[tabindex="-1"]:focus { outline: none; }
+
+/* Separate text gradients continue the science-to-systems story. */
+.journey-page .hero h1 .headline-science,
+/* Extend the painted gradient below the baseline so descenders are not clipped.
+   Offset that paint space to retain the headline's existing line spacing. */
+.journey-page .hero h1 .headline-digital { display: inline-block; max-width: 100%; padding-bottom: .18em; margin-bottom: -.18em; }
+.journey-page .hero h1 .headline-science { color: #174b37; }
+.journey-page .hero h1 .headline-digital { color: #a42136; }
+@supports ((background-clip: text) or (-webkit-background-clip: text)) {
+ .journey-page .hero h1 .headline-science,
+ .journey-page .hero h1 .headline-digital { background-clip: text; -webkit-background-clip: text; color: transparent; -webkit-text-fill-color: transparent; }
+ .journey-page .hero h1 .headline-science { background-image: linear-gradient(90deg, #174b37 0%, #896719 100%); }
+ .journey-page .hero h1 .headline-digital { background-image: linear-gradient(90deg, #896719 0%, #a42136 100%); }
+}
+@media print, (forced-colors: active) {
+ .journey-page .hero h1 .headline-science,
+ .journey-page .hero h1 .headline-digital { background: none; color: CanvasText; -webkit-text-fill-color: currentColor; }
+}
+
+/* Two supporting projects remain after combining healthcare analytics with Atlas. */
+@media (min-width: 851px) { .journey-page .other-projects { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+/* Separate coursework from personal builds, with personal work closing the project story. */
+.journey-page .personal-projects { margin-top: 38px; padding-top: 30px; border-top: 1px solid #a4213626; }
+.project-category strong { font-size: 17px; line-height: 1.45; letter-spacing: 0; }
+@media (max-width: 850px) { .journey-page .personal-projects { margin-top: 28px; padding-top: 24px; } }
+
+/* Final visual rhythm: consistent tags, previews, and a stronger personal-project finish. */
+.journey-page .project-section .chips span { background: #f4f4f6; color: #35353d; border: 1px solid #dedee4; font-size: 12px; line-height: 1.5; padding: 6px 11px; }
+.journey-page .personal-projects .section-head h3 { font-size: clamp(34px, 4vw, 48px); }
+.journey-page .personal-projects .section-head h3::before { content: ''; display: block; width: 48px; height: 4px; border-radius: 2px; background: #a42136; margin-bottom: 15px; }
+.journey-page .project-section .screen-visual { min-height: 0; margin: 0 0 22px; }
+.journey-page .project-section .screen-visual img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 10; object-fit: contain; border: 1px solid #e1e2e7; border-radius: 16px; background: #f6f7f9; box-shadow: 0 8px 24px #24233d0c; }
+.journey-page .project-section .screen-visual figcaption { font-size: 12px; line-height: 1.5; color: #62626a; text-align: left; margin: 10px 0 0; }
+.journey-page .atlas-demo video { border-radius: 16px; }
+.journey-page .contact { border: 1px solid #a421361a; box-shadow: 0 12px 34px #35293608; }
+.journey-page .contact .socials { display: flex; flex-wrap: wrap; gap: 12px 20px; }
+.journey-page .contact .socials a { color: #565661; font-size: 14px; }
+@media (max-width: 850px) { .journey-page .contact { gap: 24px; } }
